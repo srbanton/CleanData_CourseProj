@@ -110,7 +110,7 @@ There were 2 descriptive variables: Subject_ID and Activity.  They are the first
 
 There were 79 variables extracted that were the mean or standard deviation of the measured features.  Again, the two signals pre-processing were tAcc-XYZ and tGyro-XYZ from which these features were derived.  
 
-***All features were normalized and bounded within [-1,1].  They do not have any units.**  
+**All features were normalized and bounded within [-1,1].  They do not have any units.**  
 
 Body refers to each subject's motion as tracked by the Samsung Galaxy's accelerometer and gyroscope. The 79 features (in the order of their appearance in tidydata.txt) are:
 
