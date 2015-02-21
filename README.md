@@ -18,7 +18,7 @@ The refined/processed data is stored in the University of California Irvine Mach
 The following are the data files used in run_analysis.R and are located in the Untidy_Data directory of this repository:
 
 * **features.txt**: List of 561 variables output by motion sensors and refined with signal processing techniques 
-* **activity_labels.txt**: Matches 6 activities to the numeric codes used in "y-" files.
+* **activity_labels.txt**: Matches 6 activities to the numeric codes used in "y-" files
 	* 1 in a "y-" file is equal to Walking, 2 is equal to Walking Upstairs, etc. 
 * **x_train.txt**: 7352R x 561C table of motion sensor data for 70% of subjects; each column is one of 561 features
 * **y_train.txt**: 7352R x1C table; each row has a numeric code corresponding to one of the six activities
