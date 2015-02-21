@@ -70,7 +70,7 @@ The data from each of the files were read into R using individual read.table() c
 * subject_train.txt
 * subject_test.txt
  
-The activity_labels.txt file contains the activity names that correspond to the numeric codes input into the "y-" files.
+The activity_labels.txt file contains the activity names that correspond to the numeric codes input into the "y-" files as shown in the table below.  
 
 | Numeric Code     | Activity             |
 |:----------------:|:--------------------:|
@@ -81,7 +81,8 @@ The activity_labels.txt file contains the activity names that correspond to the 
 | 5                | Standing             |
 | 6                | Laying               |
 
-..
+The information from this file was used to manually change the numeric codes to the activity names.
+
 #####Cleaning Data
 1. Create test and train datasets using cbind()
 	1. test =subject_test, y_test, and x_test datasets
@@ -91,7 +92,7 @@ The activity_labels.txt file contains the activity names that correspond to the 
 4. Extract features that have "mean" or "std" in their names using subsetting and grep()
 
 #####Generating Tidy Dataset 
-1. Rename activity labels using factor() to substitute numeric code with actual name of activity
+1. Rename activity labels using factor() to substitute numeric code with activity name
 2. Group large dataset by subject and activity using group_by() (dplyr package) 
 3. Use summarise_each() to calculate the means of each feature by each subject-activity groups
 4. Check dimensions of resulting data table
