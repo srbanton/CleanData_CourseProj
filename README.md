@@ -12,7 +12,7 @@ The refined/processed data is stored in the University of California Irvine Mach
 
 * **README.md**
 * **run_analysis.R**: R script that manipulates "untidy" data to create "tidydata.txt"
-* **tidydata.txt**: 180 rows (R) x 81 columns (C) dataset that summarizes the means of specific variables in the motion sensor data
+* **tidydata.txt**: 180 rows (R) x 81 columns (C) dataset that summarizes the means of specific variables in the motion sensor data per subject and activity
 * **Codebook.md**: Has detailed information on the experimental design for the untidy data, my summary/analysis decisions, and the variables in my tidy data   
 
 The following are the data files used in run_analysis.R and are located in the Untidy_Data directory of this repository:
