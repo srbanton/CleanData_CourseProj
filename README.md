@@ -11,7 +11,7 @@ The refined/processed data is stored in the University of California Irvine Mach
 ##Files in this repository
 
 * **README.md**
-* **run_analysis.R**: R script that manipulates and cleans raw data to create "tidydata.txt"
+* **run_analysis.R**: R script that manipulates and cleans "untidy" data to create "tidydata.txt"
 * **tidydata.txt**: 180 rows (R) x 81 columns (C) dataset that summarizes Samsung Galaxy S II motion sensor data
 * **Codebook.md**: Has detailed information on the experimental design for the untidy data, my summary/analysis decisions, and the variables in my tidy data   
 
