@@ -94,7 +94,7 @@ The information from this file was used to manually change the numeric codes to 
 #####Generating Tidy Dataset 
 1. Rename activity labels using factor() to substitute numeric code with activity name
 2. Group large dataset by subject and activity using group_by() (dplyr package) 
-3. Use summarise_each() to calculate the means of each feature by each subject-activity groups
+3. Use summarise_each() to calculate the mean of each feature for each subject-activity group
 4. Check dimensions of resulting data table
 5. Write tidy data set to .txt file
 
