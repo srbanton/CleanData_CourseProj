@@ -23,7 +23,7 @@ The following are the data files used in run_analysis.R and are located in the U
 * **x_train.txt**: 7352R x 561C table of motion sensor data for 70% of subjects; each column is one of 561 features
 * **y_train.txt**: 7352R x1C table; each row has a numeric code corresponding to one of the six activities
 * **x_test.txt**: 2947R x 561C table of sensor data for 30% of subjects; each column is one of 561 features
-* **y_test.txt**: 2947R x 1C table; each row has a numeric code corresponding one of the six activities
+* **y_test.txt**: 2947R x 1C table; each row has a numeric code corresponding to one of the six activities
 * **subject_train.txt**: 7352R x 1C table of Subject IDs; each row shows the subject who performed the training activity
 * **subject_test.txt**: 2947R x 1C table of Subject IDs; each row shows the subject who performed the testing activity
 
