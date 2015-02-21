@@ -4,8 +4,7 @@
 ## Quick background on the data
 The original data was collected when 30 subjects performed 6 routine activities while wearing a Samsung Galaxy S II smartphone. Sensors on the smartphone recorded different features of each subject's motion.  The researchers conducting the experiments later refined the sensor data using signal processing techniques.        
 
-The refined/processed data is stored in the University of California Irvine Machine Learning Repository.  The data can be retrieved [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  
-The researchers opened access to the refined data in 2012.   
+The refined/processed data is stored in the University of California Irvine Machine Learning Repository.  The data can be retrieved [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  The researchers opened access to the refined data in 2012.   
 
 *I cleaned and manipulated the processed data in R as part of the Coursera course "Getting and Cleaning Data" offered by Johns Hopkins.* 
 
