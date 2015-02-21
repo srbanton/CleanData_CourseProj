@@ -1,3 +1,7 @@
+# This file cleans up data from the Human Activity Recognition 
+# dataset and computes the mean of experimental variables for 30 
+# subjects across 6 performed activities. A tidy data file is output.
+
 ##Read in data files
 ytrain <- read.table("y_train.txt",sep="")
 xtrain <- read.table("x_train.txt",sep="")
