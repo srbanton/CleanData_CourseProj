@@ -54,19 +54,19 @@ Variables that had "Mean" in their name, like gravityMean, were not included bec
 
 Variables that had "meanFreq" in their names were included because unlike mean() the meanFreq() calculation was a weighted average and just another representation of the data's behavior.  The researchers computing the weighted average suggests that body motion may have been more dominant in one or two directions (x,y, or z), which would make sense in activities like laying or standing.
 
-After extracting just those feature variables I wanted to calculate the average of each of them per subject *and* the subject's activity.  Each of the 30 subjects performed 6 activities so I expected 180 observations in my final data file.  Doing so required retrieval and cleaning of the data and is encoded in run_analysis.R.
+After extracting just those feature variables I wanted to calculate the mean of each of them per subject *and* the subject's activity.  Each of the 30 subjects performed 6 activities so I expected 180 observations in my final data file.  Doing so required retrieval and cleaning of the data which is encoded in run_analysis.R.
 
 ###run_analysis.R workflow
 
 #####Data Retrieval
 
-The data from each of the files were read into R using individual read.table() calls.
+The data from each of the files below were read into R using individual read.table() calls.
 
 * features.txt
 * x_train.txt
 * y_train.txt
 * x_test.txt
-* y_test.txtlabel 
+* y_test.txt 
 * subject_train.txt
 * subject_test.txt
  
@@ -85,9 +85,9 @@ The information from this file was used to manually change the numeric codes to 
 
 #####Cleaning Data
 1. Create test and train datasets using cbind()
-	1. test =subject_test, y_test, and x_test datasets
+	1. test = subject_test, y_test, and x_test datasets
 	2. train = subject_train, y_train, and x_train datasets
-2. Create one large dataset the test and train using rbind()
+2. Create one large dataset combining test and train using rbind()
 3. Assign column names to large data set, including the feature names from features.txt 
 4. Extract features that have "mean" or "std" in their names using subsetting and grep()
 
@@ -115,7 +115,7 @@ There were 79 variables extracted that were the mean or standard deviation of th
 
 Body refers to each subject's motion as tracked by the Samsung Galaxy's accelerometer and gyroscope. The 79 features (in the order of their appearance in tidydata.txt) are:
 
-
+##
 ####Time Domain Feature Variables
 
 Body's Acceleration (Linear + Angular)
@@ -187,7 +187,7 @@ Magnitude of Angular Velocity
 
 39. **tBodyGyroJerkMag-mean()**: mean magnitude of the body's angular velocity
 40. **tBodyGyroJerkMag-std()**: standard deviation of the magnitude of the body's angular velocity   
-
+##
 ####Frequency Domain Feature Variables
 
 
