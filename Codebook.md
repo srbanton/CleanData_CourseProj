@@ -186,7 +186,7 @@ Magnitude of Angular Velocity
 
 39. **tBodyGyroJerkMag-mean()**: mean magnitude of the body's angular velocity
 40. **tBodyGyroJerkMag-std()**: standard deviation of the magnitude of the body's angular velocity   
-..
+
 ####Frequency Domain Feature Variables
 
 
