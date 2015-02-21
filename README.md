@@ -16,7 +16,7 @@ The researchers opened access to the refined data in 2012.
 * **tidydata.txt**: 180 rows (R) x 81 columns (C) dataset that summarizes Samsung Galaxy S II motion sensor data
 * **Codebook.md**: Has more detailed information on the experimental design, experimental data, and my summary/analysis decisions   
 
-The following are the  data files used in run_analysis.R:
+The following are the data files used in run_analysis.R and are located in the Untidy_Data directory of this repository:
 
 * **features.txt**: List of 561 variables output by motion sensors and refined with signal processing techniques 
 * **x_train.txt**: 7352R x 561C of sensor data for 70% of subjects; each column is one of 561 features
