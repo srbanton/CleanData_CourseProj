@@ -10,21 +10,22 @@ The refined/processed data is stored in the University of California Irvine Mach
 
 ##Files in this repository
 
-* **ReadMe.md**
+* **READMe.md**
 * **run_analysis.R**: R script that manipulates and cleans raw data to create "tidydata.txt"
 * **tidydata.txt**: 180 rows (R) x 81 columns (C) dataset that summarizes Samsung Galaxy S II motion sensor data
-* **Codebook.md**: Has more detailed information on the experimental design, experimental data, and my summary/analysis decisions   
+* **Codebook.md**: Has detailed information on the experimental design for the untidy data, my summary/analysis decisions, and the variables in my tidy data   
 
 The following are the data files used in run_analysis.R and are located in the Untidy_Data directory of this repository:
 
 * **features.txt**: List of 561 variables output by motion sensors and refined with signal processing techniques 
-* **x_train.txt**: 7352R x 561C of sensor data for 70% of subjects; each column is one of 561 features
-* **y_train.txt**: 7352R x1C; each row represents an  activity label
-* **x_test.txt**: 2947R x 561C of sensor data for 30% of subjects; each column is one of 561 features
-* **y_test.txt**: 2947R x 1C; each row represents an activity label 
-* **subject_train.txt**: 7352R x 1C of Subject IDs; each row represents subject who performed a training activity
-* **subject_test.txt**: 2947R x 1C of Subject IDs; each row represents subject who performed a testing activity
-* **activity_labels.txt**: Codes 6 activity names to labels in "y-" files 
+* **activity_labels.txt**: Matches 6 activities to the numeric codes used in "y-" files.  1 in a "y-" file is equal to Walking, 2 = Walking Upstairs, etc. 
+* **x_train.txt**: 7352R x 561C table of motion sensor data for 70% of subjects; each column is one of 561 features
+* **y_train.txt**: 7352R x1C table; each row has a numeric code corresponding to one of the six activities
+* **x_test.txt**: 2947R x 561C table of sensor data for 30% of subjects; each column is one of 561 features
+* **y_test.txt**: 2947R x 1C table; each row has a numeric code corresponding one of the six activities
+* **subject_train.txt**: 7352R x 1C table of Subject IDs; each row shows the subject who performed the training activity
+* **subject_test.txt**: 2947R x 1C table of Subject IDs; each row shows the subject who performed the testing activity
+
 
 ##Notes
 1. The activity labels file was not called explicitly in run_analysis.R. See Codebook.md for more information
